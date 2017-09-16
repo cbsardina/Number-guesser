@@ -11,7 +11,6 @@ public class Main {
         double theNumber = Math.ceil(Math.random() * 100);
         int guess;
         int guesses = 1;
-        System.out.println(theNumber);
 
         System.out.println("Guess a number between 1-100!");
         guess = scanner.nextInt();
@@ -32,11 +31,6 @@ public class Main {
                 }
             }
         }
-
         System.out.println("You guessed it! The number was " + guess + ". It took you " + guesses + " guesses.");
-
-
     }
-
-
 }
